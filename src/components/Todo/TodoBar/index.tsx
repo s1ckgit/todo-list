@@ -59,9 +59,9 @@ const TodoBar = ({
         </div>
 
         <button
-          onClick={() => setTodos([])}
+          onClick={() => setTodos((prev) => prev.filter((todo) => todo.status !== 'completed'))}
         >
-          Очистить
+          Очистить выполненные
         </button>
       </div>
   )
