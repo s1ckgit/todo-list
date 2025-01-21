@@ -1,0 +1,21 @@
+.todos__item {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+
+  padding: 12px 6px;
+
+  cursor: pointer;
+
+  border-bottom: 1px solid #E2E1E9;
+}
+
+.todos__item_completed {
+  color: #a4a4a7;
+  text-decoration: line-through;
+}
+
+.todos__item-checkbox {
+  width: 32px;
+  height:  32px;
+}

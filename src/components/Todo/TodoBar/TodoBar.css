@@ -1,0 +1,23 @@
+.todobar {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+
+  background-color: white;
+
+  padding: 16px;
+}
+
+.todobar__buttons {
+  display: flex;
+  column-gap: 16px
+}
+
+.todobar__button {
+  padding: 6px;
+}
+
+.todobar__button_active {
+  border-radius: 6px;
+  outline: 1px solid #98575D;
+}

@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.section__title {
+  color: #98575D;
+  font-size: 48px;
+  line-height: 1.5;
+}
